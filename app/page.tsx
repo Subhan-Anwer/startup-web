@@ -3,7 +3,6 @@ import Partnersection  from "@/components/partnersection";
 import Contentsection1 from "@/components/contentSection1";
 import Contentsection2 from "@/components/contentSection2";
 import Team            from "@/components/teamSection";
-import Pricing from "@/components/pricing";
 
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <Contentsection2/>
       <Team/>
       
-      {/* <Pricing/> */}
 
 
     </div>
