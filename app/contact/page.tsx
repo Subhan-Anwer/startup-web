@@ -11,8 +11,8 @@ const page = () => {
             </div>
 
             {/* Content */}
-            <div className="max-w-[1180px] h-auto mx-auto border border-yellow-400 flex flex-wrap gap-[21px] items-center justify-center mb-[93px]">
-                <div className='lg:w-[575px] w-full min-h-[385px] bg-red-300 flex flex-col gap-[21px] sm:p-0 p-3'>
+            <div className="max-w-[1180px] h-auto mx-auto flex flex-wrap gap-[21px] items-center justify-center mb-[93px]">
+                <div className='lg:w-[575px] w-full min-h-[385px] flex flex-col gap-[21px] sm:p-0 p-3'>
                     <div className="flex flex-col sm:gap-4 gap-2">
                         <label htmlFor="name" className='text-[#000000] sm:text-xl text-base'>Name</label>
                         <input id="name" type="text" className='w-full h-[38px] border border-black bg-[#EEEEEE] rounded-md pl-2' />
