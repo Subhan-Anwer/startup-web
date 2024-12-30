@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import type { Metadata } from "next";
 
 const page = () => {
     return (
@@ -120,3 +121,7 @@ const page = () => {
 }
 
 export default page
+export const metadata: Metadata = {
+    title: "My Portfolio",
+    description: "Developed By: Subhan Sheikh",
+};
