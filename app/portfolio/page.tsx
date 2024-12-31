@@ -11,7 +11,7 @@ const page = () => {
                 <p className='sm:text-xl text-xs tracking-wider leading-[25px] text-black'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
-            <section className='max-w-[1187px] w-full h-auto mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12 border-2 border-blue-500 mb-16'>
+            <section className='max-w-[1187px] w-full h-auto mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12 mb-16'>
                 {/* Card 1 */}
                 <div className="w-full h-auto border-2 border-black rounded-md">
                     <Image

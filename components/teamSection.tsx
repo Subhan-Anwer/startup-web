@@ -19,7 +19,7 @@ const Team = () => {
             </div>
 
             {/* Cards */}
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-[47px]">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-[47px]">  
                 {/* Card 1 */}
                 <TeamMemberCard
                     imageSrc="/team1.svg"
